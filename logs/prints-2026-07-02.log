@@ -1,0 +1,5 @@
+13:18:31.383 [TestNG-PoolService-3] DEBUG stepDefinations.ValidateFilterByPriceStep - Price Filter For ₹60 - ₹70 is working
+13:18:32.467 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - clear filter is applied
+13:18:45.063 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - item added to cart
+13:18:51.165 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - CORRECT ITEM GOT ADDED TO CART
+13:18:54.195 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - CORRECT QUANTITY GOT ADDED TO CART

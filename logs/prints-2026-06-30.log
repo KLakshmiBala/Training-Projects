@@ -1,0 +1,7 @@
+18:09:03.016 [main] DEBUG stepDefinations.LoginStep - Reached Method
+18:09:07.441 [main] DEBUG stepDefinations.LoginStep - URL Launched
+18:09:07.480 [main] DEBUG stepDefinations.LoginStep - Window Maximized
+18:09:29.195 [main] DEBUG stepDefinations.LoginStep - User is successfully logged in
+18:09:41.501 [main] DEBUG stepDefinations.ValidateAddToCartStep - clear filter is applied
+18:09:53.778 [main] DEBUG stepDefinations.ValidateAddToCartStep - item added to cart
+18:09:59.862 [main] DEBUG stepDefinations.ValidateAddToCartStep - CORRECT ITEM GOT ADDED TO CART

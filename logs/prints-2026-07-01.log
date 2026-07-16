@@ -1,0 +1,7 @@
+15:06:17.016 [main] DEBUG stepDefinations.LoginStep - URL Launched
+15:06:17.100 [main] DEBUG stepDefinations.LoginStep - Window Maximized
+15:06:39.137 [main] DEBUG stepDefinations.LoginStep - User is successfully logged in
+15:18:08.413 [main] DEBUG stepDefinations.LoginStep - Reached Method
+15:18:13.289 [main] DEBUG stepDefinations.LoginStep - URL Launched
+15:18:13.337 [main] DEBUG stepDefinations.LoginStep - Window Maximized
+15:18:35.823 [main] DEBUG stepDefinations.LoginStep - User is successfully logged in

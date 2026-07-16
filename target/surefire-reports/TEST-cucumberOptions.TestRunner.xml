@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="cucumberOptions.TestRunner" time="90.244" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\laksh\eclipse-workspace\sampleprojectpractice\target\test-classes;C:\Users\laksh\eclipse-workspace\sampleprojectpractice\target\classes;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\laksh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\laksh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\laksh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\laksh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\laksh\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\laksh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\laksh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\laksh\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\laksh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\laksh\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\laksh\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\laksh\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\laksh\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\laksh\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\laksh\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\laksh\AppData\Local\Temp\surefire7790589027619440645\surefirebooter-20260702131723819_3.jar C:\Users\laksh\AppData\Local\Temp\surefire7790589027619440645 2026-07-02T13-17-23_553-jvmRun1 surefire-20260702131723819_1tmp surefire_0-20260702131723819_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\laksh\eclipse-workspace\sampleprojectpractice\target\test-classes;C:\Users\laksh\eclipse-workspace\sampleprojectpractice\target\classes;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\laksh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\laksh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\laksh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\laksh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\laksh\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\laksh\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\laksh\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\laksh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\laksh\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\laksh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\laksh\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\laksh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\laksh\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\laksh\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\laksh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\laksh\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\laksh\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\laksh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\laksh\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\laksh\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\laksh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\laksh\eclipse-workspace\sampleprojectpractice"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\laksh\AppData\Local\Temp\surefire7790589027619440645\surefirebooter-20260702131723819_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="laksh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\laksh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="C:\Users\laksh\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="C:\Users\laksh\eclipse-workspace\sampleprojectpractice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Users\laksh\Maven\apache-maven-3.9.16\bin;C:\Users\laksh\scoop\shims;C:\Users\laksh\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;login via email and password&quot;, &quot;Login functionality of registered user&quot;](1)" classname="cucumberOptions.TestRunner" time="54.592">
+    <system-out><![CDATA[
+@login
+Scenario: login via email and password                                     &amp#27;[90m# src/test/resources/features/login.feature:4&amp#27;[0m
+
+@filterByPrice
+Scenario: Validating price by filter                                       &amp#27;[90m# src/test/resources/features/validateFilterByPrice.feature:16&amp#27;[0m
+
+@filterByPrice
+Scenario: Validating price by filter                                       &amp#27;[90m# src/test/resources/features/validateFilterByPrice.feature:17&amp#27;[0m
+
+@filterByPrice
+Scenario: Validating price by filter                                       &amp#27;[90m# src/test/resources/features/validateFilterByPrice.feature:18&amp#27;[0m
+
+@addCart
+Scenario: Validate add to cart                                             &amp#27;[90m# src/test/resources/features/validateAddToCart.feature:5&amp#27;[0m
+java -jar src/main/resources/selenium-server-4.44.0.jar standalone
+java -jar src/main/resources/selenium-server-4.44.0.jar standalone
+java -jar src/main/resources/selenium-server-4.44.0.jar standalone
+java -jar src/main/resources/selenium-server-4.44.0.jar standalone
+java -jar src/main/resources/selenium-server-4.44.0.jar standalone
+13:17:37.832 [TestNG-PoolService-4] DEBUG stepDefinations.LoginStep - Reached Method
+13:17:37.832 [TestNG-PoolService-0] DEBUG stepDefinations.LoginStep - Reached Method
+13:17:37.832 [TestNG-PoolService-1] DEBUG stepDefinations.LoginStep - Reached Method
+13:17:37.832 [TestNG-PoolService-2] DEBUG stepDefinations.LoginStep - Reached Method
+13:17:37.832 [TestNG-PoolService-3] DEBUG stepDefinations.LoginStep - Reached Method
+13:17:41.062 [TestNG-PoolService-0] DEBUG stepDefinations.LoginStep - URL Launched
+13:17:41.079 [TestNG-PoolService-1] DEBUG stepDefinations.LoginStep - URL Launched
+13:17:41.082 [TestNG-PoolService-4] DEBUG stepDefinations.LoginStep - URL Launched
+13:17:41.158 [TestNG-PoolService-3] DEBUG stepDefinations.LoginStep - URL Launched
+13:17:41.178 [TestNG-PoolService-2] DEBUG stepDefinations.LoginStep - URL Launched
+13:17:41.454 [TestNG-PoolService-4] DEBUG stepDefinations.LoginStep - Window Maximized
+13:17:41.494 [TestNG-PoolService-1] DEBUG stepDefinations.LoginStep - Window Maximized
+13:17:42.306 [TestNG-PoolService-0] DEBUG stepDefinations.LoginStep - Window Maximized
+13:17:43.665 [TestNG-PoolService-2] DEBUG stepDefinations.LoginStep - Window Maximized
+13:17:43.949 [TestNG-PoolService-3] DEBUG stepDefinations.LoginStep - Window Maximized
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.LoginStep.user_is_home_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.LoginStep.user_is_home_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.LoginStep.user_is_home_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.LoginStep.user_is_home_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.LoginStep.user_is_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.LoginStep.clicks_login()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.LoginStep.clicks_login()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.LoginStep.clicks_login()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.LoginStep.clicks_login()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.LoginStep.clicks_login()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.LoginStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.LoginStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.LoginStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.LoginStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.LoginStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+13:18:17.976 [TestNG-PoolService-0] DEBUG stepDefinations.LoginStep - User is successfully logged in
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is successfully logged in&amp#27;[0m                                      &amp#27;[90m# stepDefinations.LoginStep.user_is_successfully_logged_in()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jul 02, 2026 1:17:25 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validating price by filter&quot;, &quot;Validating price by filter functionality&quot;](2)" classname="cucumberOptions.TestRunner" time="68.591">
+    <system-out><![CDATA[13:18:19.945 [TestNG-PoolService-1] DEBUG stepDefinations.LoginStep - User is successfully logged in
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is successfully logged in&amp#27;[0m                                      &amp#27;[90m# stepDefinations.LoginStep.user_is_successfully_logged_in()&amp#27;[0m
+13:18:20.678 [TestNG-PoolService-2] DEBUG stepDefinations.LoginStep - User is successfully logged in
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is successfully logged in&amp#27;[0m                                      &amp#27;[90m# stepDefinations.LoginStep.user_is_successfully_logged_in()&amp#27;[0m
+13:18:21.199 [TestNG-PoolService-4] DEBUG stepDefinations.LoginStep - User is successfully logged in
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is successfully logged in&amp#27;[0m                                      &amp#27;[90m# stepDefinations.LoginStep.user_is_successfully_logged_in()&amp#27;[0m
+13:18:21.645 [TestNG-PoolService-3] DEBUG stepDefinations.LoginStep - User is successfully logged in
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is successfully logged in&amp#27;[0m                                      &amp#27;[90m# stepDefinations.LoginStep.user_is_successfully_logged_in()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser is on search screen and in stock is checked&amp#27;[0m                     &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.user_is_on_search_screen_and_in_stock_is_checked()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on search screen and in stock is checked&amp#27;[0m                   &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.user_is_on_search_screen_and_in_stock_is_checked()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on search screen and in stock is checked&amp#27;[0m                   &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.user_is_on_search_screen_and_in_stock_is_checked()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on search screen and in stock is checked&amp#27;[0m                   &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.user_is_on_search_screen_and_in_stock_is_checked()&amp#27;[0m
+REACHED CART
+size:4
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRange &amp#27;[0m&amp#27;[32m&amp#27;[1m"Below ₹60"&amp#27;[0m&amp#27;[32m is selected&amp#27;[0m                                       &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.range_is_selected(java.lang.String)&amp#27;[0m
+4****SIZE59
+45
+35
+
+Price Filter For Below ₹60 is working
+13:18:30.410 [TestNG-PoolService-2] DEBUG stepDefinations.ValidateFilterByPriceStep - Price Filter For Below ₹60 is working
+size:1
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRange &amp#27;[0m&amp#27;[32m&amp#27;[1m"Above ₹70"&amp#27;[0m&amp#27;[32m is selected&amp#27;[0m                                       &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.range_is_selected(java.lang.String)&amp#27;[0m
+1****SIZE79
+Price Filter For Above ₹70 is working
+13:18:30.691 [TestNG-PoolService-4] DEBUG stepDefinations.ValidateFilterByPriceStep - Price Filter For Above ₹70 is working
+size:1
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRange &amp#27;[0m&amp#27;[32m&amp#27;[1m"₹60 - ₹70"&amp#27;[0m&amp#27;[32m is selected&amp#27;[0m                                       &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.range_is_selected(java.lang.String)&amp#27;[0m
+1****SIZE69
+Price Filter For ₹60 - ₹70 is working
+13:18:31.383 [TestNG-PoolService-3] DEBUG stepDefinations.ValidateFilterByPriceStep - Price Filter For ₹60 - ₹70 is working
+CLEAR FILTER IS CLICKED
+13:18:32.467 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - clear filter is applied
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclear filter is applied&amp#27;[0m                                            &amp#27;[90m# stepDefinations.ValidateAddToCartStep.user_is_on_the_search_page_and_clear_filter_is_applied()&amp#27;[0m
+URL lasthttps://www.engineerdiaries.com/ui-framework
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprice is validated&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.price_is_validated()&amp#27;[0m
+URL lasthttps://www.engineerdiaries.com/ui-framework
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprice is validated&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.price_is_validated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validating price by filter&quot;, &quot;Validating price by filter functionality&quot;](3)" classname="cucumberOptions.TestRunner" time="68.851"/>
+  <testcase name="runScenario[&quot;Validating price by filter&quot;, &quot;Validating price by filter functionality&quot;](4)" classname="cucumberOptions.TestRunner" time="69.491">
+    <system-out><![CDATA[URL lasthttps://www.engineerdiaries.com/ui-framework
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprice is validated&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.ValidateFilterByPriceStep.price_is_validated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate add to cart&quot;, &quot;Validate add to cart functionality&quot;](5)" classname="cucumberOptions.TestRunner" time="89.3">
+    <system-out><![CDATA[13:18:45.063 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - item added to cart
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser search flower &amp#27;[0m&amp#27;[32m&amp#27;[1m"Rose"&amp#27;[0m&amp#27;[32m and quantity &amp#27;[0m&amp#27;[32m&amp#27;[1m"3"&amp#27;[0m                          &amp#27;[90m# stepDefinations.ValidateAddToCartStep.user_search_flower_and_quantity(java.lang.String,java.lang.String)&amp#27;[0m
+FLOWER:Rose
+13:18:51.165 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - CORRECT ITEM GOT ADDED TO CART
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate correct item is added&amp#27;[0m                                      &amp#27;[90m# stepDefinations.ValidateAddToCartStep.validate_correct_item_is_added()&amp#27;[0m
+3
+13:18:54.195 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - CORRECT QUANTITY GOT ADDED TO CART
+13:18:54.195 [TestNG-PoolService-1] DEBUG stepDefinations.ValidateAddToCartStep - TEST CASE IS PASSED
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate correct item quantity&amp#27;[0m                                       &amp#27;[90m# stepDefinations.ValidateAddToCartStep.validate_correct_item_quantity()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

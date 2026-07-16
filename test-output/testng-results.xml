@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-02T07:42:53Z" name="Default suite" finished-at="2026-07-02T07:44:17Z" duration-ms="84686">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2a448449]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-07-02T07:42:53Z" name="Default test" finished-at="2026-07-02T07:44:17Z" duration-ms="84686">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@2a448449]" started-at="2026-07-02T07:42:53Z" name="setUpClass" finished-at="2026-07-02T07:42:53Z" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@48f5bde6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2a448449]" started-at="2026-07-02T07:42:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T07:43:54Z" duration-ms="61528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2a448449]" started-at="2026-07-02T07:42:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T07:44:17Z" duration-ms="84336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate add to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate add to cart functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2a448449]" started-at="2026-07-02T07:42:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T07:43:55Z" duration-ms="62342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2a448449]" started-at="2026-07-02T07:42:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T07:43:45Z" duration-ms="52497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login via email and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality of registered user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2a448449]" started-at="2026-07-02T07:42:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T07:43:56Z" duration-ms="63527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@2a448449]" started-at="2026-07-02T07:44:17Z" name="tearDownClass" finished-at="2026-07-02T07:44:17Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
